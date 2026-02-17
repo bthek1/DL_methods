@@ -5,7 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://bthek1.github.io',
                 'git_url': 'https://github.com/bthek1/DeepLearning',
                 'lib_path': 'DeepLearning'},
-  'syms': { 'DeepLearning.cifar': { 'DeepLearning.cifar.get_grid': ('dataset_cifar_10.html#get_grid', 'DeepLearning/cifar.py'),
-                                    'DeepLearning.cifar.show_image': ('dataset_cifar_10.html#show_image', 'DeepLearning/cifar.py'),
-                                    'DeepLearning.cifar.show_images': ('dataset_cifar_10.html#show_images', 'DeepLearning/cifar.py')},
-            'DeepLearning.core': {'DeepLearning.core.foo': ('core.html#foo', 'DeepLearning/core.py')}}}
+  'syms': {}}

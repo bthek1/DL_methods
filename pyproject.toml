@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DeepLearning"
+dynamic = ["version"]
+description = "Deep Learning models of Computer vision"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "Apache-2.0"}
+authors = [{name = "main", email = "bthekkel1@gmail.com"}]
+keywords = ['nbdev', 'jupyter', 'notebook', 'python']
+classifiers = ["Natural Language :: English", "Intended Audience :: Developers", "Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3 :: Only"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/bthek1/DeepLearning"
+Documentation = "https://bthek1.github.io/DeepLearning"
+
+[project.entry-points.nbdev]
+DeepLearning = "DeepLearning._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "DeepLearning.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["DeepLearning"]
+
+[tool.nbdev]
+jupyter_hooks = true
