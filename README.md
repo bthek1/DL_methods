@@ -143,6 +143,8 @@ The most systematic part of this site: nineteen pages walking the retrieval-augm
 | [Graph RAG](LLM/RAG/18_Graph_RAG.ipynb) | Retrieval over a knowledge graph instead of a flat index |
 | [Multimodal RAG](LLM/RAG/19_Multimodal_RAG.ipynb) | Retrieval across images and documents, not only text |
 
+------------------------------------------------------------------------
+
 ## Not Covered Yet
 
 - **No fine-tuning.** Nothing on LoRA, QLoRA, adapters, or full fine-tuning, which is the most obvious gap given the depth of everything around it.
