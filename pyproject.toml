@@ -28,4 +28,5 @@ version = {attr = "DeepLearning.__version__"}
 include = ["DeepLearning"]
 
 [tool.nbdev]
+custom_sidebar = true
 jupyter_hooks = true
